@@ -15,7 +15,7 @@ C:/Users/shcha/Documents/career/favoriteView/favoriteView/Unity/favoriteView
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49210
+62998
 Successfully changed project path to: C:/Users/shcha/Documents/career/favoriteView/favoriteView/Unity/favoriteView
 C:/Users/shcha/Documents/career/favoriteView/favoriteView/Unity/favoriteView
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/shcha/Documents/career/favoriteView/favoriteView/Unity/favoriteView
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4116] Host "[IP] 172.16.22.36 [Port] 0 [Flags] 2 [Guid] 4097968787 [EditorId] 4097968787 [Version] 1048832 [Id] WindowsEditor(7,shaansNasaPc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12912] Host "[IP] 172.16.22.36 [Port] 0 [Flags] 2 [Guid] 3868250902 [EditorId] 3868250902 [Version] 1048832 [Id] WindowsEditor(7,shaansNasaPc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4116] Host "[IP] 172.16.22.36 [Port] 0 [Flags] 2 [Guid] 4097968787 [EditorId] 4097968787 [Version] 1048832 [Id] WindowsEditor(7,shaansNasaPc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12912] Host "[IP] 172.16.22.36 [Port] 0 [Flags] 2 [Guid] 3868250902 [EditorId] 3868250902 [Version] 1048832 [Id] WindowsEditor(7,shaansNasaPc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 104.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 133.68 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004181 seconds.
+Registered in 0.006427 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118.34 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.598 seconds
+- Completed reload, in  0.776 seconds
 Domain Reload Profiling:
-	ReloadAssembly (598ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (777ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (441ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (563ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (273ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (361ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005386 seconds.
+Registered in 0.008184 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\shcha\Documents\career\favoriteView\favoriteView\Unity\favoriteView\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\shcha\Documents\career\favoriteView\favoriteView\Unity\favoriteView\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 83.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 140.77 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
+- Completed reload, in  1.603 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1031ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (1604ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (819ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1336ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
+			SetupTypeCache (352ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (456ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (738ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 2.50 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4715 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (1.1 MB). Loaded Objects now: 5159.
-Memory consumption went from 191.0 MB to 189.8 MB.
-Total: 3.290300 ms (FindLiveObjects: 0.300900 ms CreateObjectMapping: 0.136700 ms MarkObjects: 2.466500 ms  DeleteObjects: 0.385100 ms)
+Unloading 5210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (1.1 MB). Loaded Objects now: 5620.
+Memory consumption went from 221.3 MB to 220.2 MB.
+Total: 6.326900 ms (FindLiveObjects: 0.475200 ms CreateObjectMapping: 0.215200 ms MarkObjects: 5.095200 ms  DeleteObjects: 0.540000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,3 +163,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 93186.187668 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/green1x1.png
+  artifactKey: Guid(ce97cc92c5d962f4585b2ac5527d723e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/green1x1.png using Guid(ce97cc92c5d962f4585b2ac5527d723e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ea2028ff72bcc270f9ad9260c85be4') in 0.136569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumCreditSystem.prefab
+  artifactKey: Guid(06810f89bf31657478c3c2c3443be94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumCreditSystem.prefab using Guid(06810f89bf31657478c3c2c3443be94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10074ae83c933420c1013ef02b97e50a') in 0.130421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumUnlitTilesetMaterial.mat
+  artifactKey: Guid(d2032d88bf6556a459f397ec48ec5573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumUnlitTilesetMaterial.mat using Guid(d2032d88bf6556a459f397ec48ec5573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d693ed24eb818bba85c7fa5d05fa0f') in 0.268583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.cesium.unity/Runtime
+  artifactKey: Guid(6b3a1901a747e4548bd18a3cb182a403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime using Guid(6b3a1901a747e4548bd18a3cb182a403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c2ba84a5171e880302b4c440c841f3') in 0.009357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumSelectTexCoords.shadersubgraph
+  artifactKey: Guid(45c8c2a0ab2df934c8e0f63147f35d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumSelectTexCoords.shadersubgraph using Guid(45c8c2a0ab2df934c8e0f63147f35d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9448c283b34d42f4ef3552ebc882c2c') in 0.016457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumCreditSystemRuntimeTheme.tss
+  artifactKey: Guid(1c8cee1d39d4cb245ab32e13e5e38663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumCreditSystemRuntimeTheme.tss using Guid(1c8cee1d39d4cb245ab32e13e5e38663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afd93ed8842184f9e7789ea8c5eefed') in 0.088690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.cesium.unity/package.json
+  artifactKey: Guid(fc99b226a84821a45a32bf30352df3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/package.json using Guid(fc99b226a84821a45a32bf30352df3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77d78f60a1b8c415a72aa80c5fc96a2') in 0.029468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumCreditSystemUIPanelSettings.asset
+  artifactKey: Guid(ac26ca9c9186f374a8e440a67391435c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumCreditSystemUIPanelSettings.asset using Guid(ac26ca9c9186f374a8e440a67391435c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1986bbc59b4f7a53af415fa0711aded0') in 0.019086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources
+  artifactKey: Guid(31e89ade4e9734b4fbc24b47c534955d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources using Guid(31e89ade4e9734b4fbc24b47c534955d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6685b903024f40f8b636ca6ab793b774') in 0.010589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.cesium.unity/Runtime/Resources/CesiumPointCloudShading.hlsl
+  artifactKey: Guid(2c388534a2d2de74da9f43b834d68897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.cesium.unity/Runtime/Resources/CesiumPointCloudShading.hlsl using Guid(2c388534a2d2de74da9f43b834d68897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51474d1ff5d22c3603805ba0821113e3') in 0.024555 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
