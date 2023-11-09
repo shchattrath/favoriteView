@@ -34,23 +34,24 @@ public class TextHandler : MonoBehaviour
         string latitudeParsed = " ";
 
         if (!string.IsNullOrEmpty(longitudeText) && !string.IsNullOrEmpty(latitudeText)) {
-            longitudeParsed = longitudeText.Substring(0, longitudeText.Length - 1);
+            longitudeParsed = longitudeText.Substring(0, longitudeText.Length-1);
             latitudeParsed = latitudeText.Substring(0, latitudeText.Length - 1);
-            latitudeText = latitudeText.Substring(latitudeText.Length-1, latitudeText.Length);
-            longitudeText = longitudeText.Substring(longitudeText.Length-1, longitudeText.Length);
         }
 
         float longitude = 0, latitude = 0, height = 0;
 
 
-        if (float.TryParse(longitudeText, out longitude) && float.TryParse(latitudeText, out latitude) && float.TryParse(heightText, out height )) {
+        if (float.TryParse(longitudeParsed, out longitude) && float.TryParse(latitudeParsed, out latitude) && float.TryParse(heightText, out height )) {
             // Parsing successful, longitude, height, latitude contain the parsed float values
             Debug.Log("Parsed Longitude: " + longitude);
             Debug.Log("Parsed Latitude: " + latitude);
             Debug.Log("Parsed Height: "  + height);
         } else {
             // Parsing failed, inputText is not a valid float
-            Debug.LogError("Invalid input for longitude, height, or latitude.");
+            Debug.LogError("Invalid input for longitude, height, or latitude." );
+            Debug.Log("Parsed Longitude: " + longitudeParsed);
+            Debug.Log("Parsed Latitude: " + latitudeParsed);
+            Debug.Log("Parsed Height: "  + height);
         }
      
 
