@@ -358,6 +358,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/SKYPRO/Scripts/SKYPRO_Lighting.cs"
+"Assets/SKYPRO/Scripts/SKYPRO_Sun_Rotator.cs"
+"Assets/SKYPRO/Shaders/SKYPRO_Renderer.cs"
 "Assets/TextHandler.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
