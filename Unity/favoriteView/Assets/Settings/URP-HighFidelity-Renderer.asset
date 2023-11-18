@@ -40,7 +40,7 @@ MonoBehaviour:
       type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  - {fileID: 4028971014110783768}
+  - {fileID: 0}
   m_RendererFeatureMap: adc0de57c6d2eee518296b7acac7e937
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -92,8 +92,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f35a3fb358b019541a4d4246cdca5181, type: 3}
-  m_Name: SKYPRO_Renderer
+  m_Name: SKYPRORenderer
   m_EditorClassIdentifier: 
   m_Active: 1
-  settings:
-    material: {fileID: 0}
+  settings: {material: {fileID: 2100000, guid: 491dfa8b4421978438e7307d6e8d2dc4, type: 2}}
